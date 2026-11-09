@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>
+
+  </head>
+
+
+<body>
+
+
+    <header>
+    <nav class="navbar bg-1 fg-2">
+  <div class="container">
+    <a class="navbar-brand" href="/First Webside/index.html">
+      <img src="https://static.vecteezy.com/system/resources/previews/052/903/344/non_2x/3d-and-animation-icon-concept-vector.jpg" alt="Glitch" width="76" height="76">
+      Animation Studios
+    </a>
+  </div>
+</nav>
+    </header>
+    <br>
+
+    
+    <nav>
+        <ul class="nav justify-content-end">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="/First Webside/origenes.html">Origenes</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/First Webside/ilustraciones.html">Ilustraciones</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/First Webside/libros.html">Libros</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+  </li>
+</ul>
+    </nav>
+
+
+<br>
+
+
+    <main>
+
+      
+    <section style="display: flex; 
+                    flex-direction: row; 
+                    justify-content: center; 
+                    align-items: stretch; 
+                    gap: 20px;">
+
+
+        <br><br>
+
+
+        <section class="card" style="max-width: 320px">
+  <img src="https://static.wikitide.net/avidwiki/thumb/b/b5/Glitch_Productions_(2024).jpg/1200px-Glitch_Productions_(2024).jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h4 class="card-title">Glitch Studio</h4>
+    <p class="card-text">Estudio independiente encargado de producciones audiovisuales que se publican en Youtube por medio de stream.</p>
+    <button type="button" class="btn-solid theme-primary" data-bs-toggle="dialog" data-bs-target="#exampleDialog">
+  Unirse a la Grasa
+</button>
+  </div>
+</section>
+
+
+    <br>
+    
+    
+    <section class="card" style="max-width: 320px">
+  <img src="https://logos-world.net/wp-content/uploads/2024/07/Studio-Ghibli-Symbol.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h4 class="card-title">Studio Ghibli</h4>
+    <p class="card-text">Estudio de animación japonesa especializado por sus obras animados a mano y con grandes detalles super guardados.</p>
+    <a href="#" class="btn-solid theme-primary">Go somewhere</a>
+    <button type="button" class="btn-outline theme-secondary" 
+    onclick="Saludar()">Sobre el Estudio</button>
+  </div>
+</section>
+
+
+<br>
+
+
+<section class="card" style="max-width: 320px">
+  <img src="https://tse3.mm.bing.net/th/id/OIP.xWFkC_GbRIHJ4I5KAHU-pAHaDl?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h4 class="card-title">Mad House</h4>
+    <p class="card-text">Un estudio japonés especializado en hacer animes de forma detallda, su producción empezó desde 1972.</p>
+    <button type="button" class="btn-text theme-inverse"
+    onclick="Anunciar()">Inverse</button>
+
+  </div>
+</section>
+
+      </main>
+
+
+
+<dialog class="dialog" id="exampleDialog">
+  <div class="dialog-header">
+    <h1 class="dialog-title">Dialog title</h1>
+    <button type="button" class="btn-close" data-bs-dismiss="dialog" aria-label="Close"></button>
+  </div>
+  <div class="dialog-body">
+    <p>UN SALUDO A LA GRASAAAAAA.</p>
+  </div>
+  <div class="dialog-footer">
+    <button type="button" class="btn-solid theme-secondary" data-bs-dismiss="dialog">Close</button>
+    <button type="button" class="btn-solid theme-primary">Save changes</button>
+  </div>
+</dialog>
+
+    <script>
+
+      function Saludar(){
+        alert("Wenas Noshes");
+      }
+
+      function Anunciar(){
+        alert ("Yo phone lingling");  
+      }
+
+      function cambiarColor(){
+
+        document.body.style.background="Black";
+      }
+    </script>
+
+
+    <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>
+
+
+</body>
+
+
+</html>
